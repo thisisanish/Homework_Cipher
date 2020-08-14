@@ -1,5 +1,6 @@
 const replaceVowel = (target)=> Array.from(target).map((element)=>{
         switch(element){
+            
             case "a":
                 return  "1"
             case "e":
@@ -15,3 +16,11 @@ const replaceVowel = (target)=> Array.from(target).map((element)=>{
         }
     }).join("")   
 
+
+
+// output
+
+console.log(replaceVowel("karachi"));
+console.log(replaceVowel("chembur"));
+console.log('the answer in the example is wrong. i was = 3 but its i in the example');
+console.log(replaceVowel("khandbari"));

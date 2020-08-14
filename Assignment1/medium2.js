@@ -6,3 +6,10 @@ const testJackpot = (outcome)=>{
     }
     return true
 }
+
+
+console.log(testJackpot (["@", "@", "@", "@"]) )
+console.log(testJackpot (["abc", "abc", "abc", "abc"]) )
+console.log(testJackpot (["SS", "SS", "SS", "SS"]) )
+console.log(testJackpot (["&&", "&", "&&&", "&&&&"]) )
+console.log(testJackpot (["SS", "SS", "SS", "Ss"]) )

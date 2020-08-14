@@ -6,5 +6,12 @@ const charCount= (unoChar, target)=>{
             count += 1
         }
     });
+   
     return count
 }
+
+// Output
+
+console.log(charCount("a","edabit"));
+console.log(charCount("c", "Chambers of secret"));
+console.log(charCount("b", "big fat bubble"));
